@@ -64,7 +64,7 @@ public static int oh(Node[] n){
     int bool=1;
 
          for(int i=0; i<=(n.length)/2; i++){
-                if(n[i]!=n[n.length-1-i]){
+                if(n[i].data!=n[n.length-1-i].data){
                     bool=0;
                     break;
                 }
